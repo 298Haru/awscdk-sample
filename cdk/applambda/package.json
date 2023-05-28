@@ -1,0 +1,41 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-lambda-event-sources": "^1.84.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.84.0",
+    "@aws-cdk/aws-logs": "^1.84.0",
+    "@types/jest": "^25.2.1",
+    "@types/node": "10.17.5",
+    "@types/request": "^2.48.5",
+    "@types/uuid": "^8.0.0",
+    "aws-cdk": "1.88.0",
+    "jest": "^25.5.0",
+    "ts-jest": "^25.3.1",
+    "ts-node": "^8.1.0",
+    "typescript": "~3.7.2",
+    "uuid": "^8.2.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cloudwatch": "^1.84.0",
+    "@aws-cdk/aws-cloudwatch-actions": "^1.84.0",
+    "@aws-cdk/aws-events": "^1.87.0",
+    "@aws-cdk/aws-events-targets": "^1.87.0",
+    "@aws-cdk/aws-lambda": "^1.87.0",
+    "@aws-cdk/aws-sns": "^1.84.0",
+    "@aws-cdk/core": "^1.84.0",
+    "algoliasearch": "^4.8.5",
+    "aws-sdk": "^2.714.2",
+    "request": "^2.88.2",
+    "source-map-support": "^0.5.16"
+  }
+}
